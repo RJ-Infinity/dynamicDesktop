@@ -1,0 +1,19 @@
+{
+	"folders":[
+		"C:\\users\\rjinf\\RJ_Infinity\\images", 
+		"C:\\users\\rjinf\\RJ_Infinity\\Assets\\img"
+	],
+	"style":10,
+	"tile":false,
+	"size restriction":false,
+	"orientation":"Landscape",
+	"max size": [0,0],
+	"min size": [0,0],
+	"time": {
+		"milisecs": 0,
+		"secs": 0,
+		"mins": 0,
+		"hours": 1,
+		"days": 0
+	}
+}
