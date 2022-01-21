@@ -25,7 +25,7 @@ namespace dynamicDesktop
         static NotifyIcon trayIcon;
         public/*keep only for debug*/ static ContextMenu trayMenu;
         [STAThread]
-        static void FMain(string[] args)
+        static void Main(string[] args)
         {
             if (args.Length > 0)
             {

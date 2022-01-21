@@ -36,8 +36,8 @@
     <Reference Include="RJControls">
       <HintPath>..\RJControls\bin\Debug\RJControls.dll</HintPath>
     </Reference>
-    <Reference Include="RJJSON">
-      <HintPath>..\JSON\RJJSON\bin\Release\RJJSON.dll</HintPath>
+    <Reference Include="RJJSON-v0.4">
+      <HintPath>..\..\..\..\New User\RJ_Infinity\cs\JSON\RJJSON-v0.4.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,8 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BackgroundChanger.cs" />
-    <Compile Include="ImageSelectParser.cs" />
-    <Compile Include="LockScreenChanger.cs" />
     <Compile Include="Misc.cs" />
     <Compile Include="NativeMethods.cs" />
     <Compile Include="Form1.cs">

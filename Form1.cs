@@ -30,7 +30,7 @@ namespace dynamicDesktop
             base.OnPaint(e);
         }
         private void Form1_Resize(object sender, EventArgs e){
-            splitContainer1.Height = Height - toolStrip1.Height - tabControl1.Height - 40;
+            splitContainer1.Height = Height - toolStrip1.Height - /*tabControl1.Height -*/ 40;
         }
 
         private void browseButton_Click(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace dynamicDesktop
             foreach (string folder in Program.settings.Folders){
                 listBox1.Items.Add(folder);
             }
-            splitContainer1.Height = Height - toolStrip1.Height - tabControl1.Height - 40;
+            splitContainer1.Height = Height - toolStrip1.Height - /*tabControl1.Height - */40;
             listBox1.SelectedIndex = listBox1.Items.Count - 1;
             removeFolderBtn.Enabled = listBox1.Items.Count != 0;
             minutesUpDownToolStrip.NumericUpDownControl.Maximum = 999;
